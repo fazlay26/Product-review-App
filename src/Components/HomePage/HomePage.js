@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import useReview from '../../Hooks/useReview';
-import useThreeReview from '../../Hooks/useThreeReview';
 import Review from '../Review/Review';
 
 const HomePage = () => {
-    const [reviews, setReviews] = useThreeReview()
+    const [reviews, setReviews] = useReview()
+    const threeReview = reviews.slice(0, 3)
     // useEffect(() => {
     //     fetch('data.json')
     //         .then(res => res.json())
@@ -36,7 +36,7 @@ const HomePage = () => {
             <div className=' py-5 flex justify-center '>
                 <div className='grid md:grid-cols-3 gap-5 w-fit'>
                     {
-                        reviews.map(review => <Review
+                        threeReview.map(review => <Review
                             key={review.id}
                             review={review}
                         ></Review>)
