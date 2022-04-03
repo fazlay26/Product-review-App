@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Fazlay",
+        "review": "Apple has to take the spot for the worst customer service. They dont seem to value customers.Have provided them with all the information they need to resolve and issue yet let keep replying “not enough information” when reply “can you be more specific about what is not enough” they dont respond. They just reply not enough information.",
+        "ratings": "5/5"
+    },
+    {
+        "id": 2,
+        "name": "Pintu",
+        "review": "I usually find Apple quite good but a £2k+ 27 Furthermore, they've discontinued this product so I can't even buy a like-for-like replacement.Very disappointing.",
+        "ratings": "4/5"
+    },
+    {
+        "id": 3,
+        "name": "Sayem",
+        "review": "I usually find Apple quite good but a £2k+ 27 Furthermore, they've discontinued this product so I can't even buy a like-for-like replacement.Very disappointing.",
+        "ratings": "2/5"
+    },
+    {
+        "id": 4,
+        "name": "Fahim",
+        "review": "I usually find Apple quite good but a £2k+ 27 Furthermore, they've discontinued this product so I can't even buy a like-for-like replacement.Very disappointing.",
+        "ratings": "3/5"
+    },
+    {
+        "id": 5,
+        "name": "Parvez",
+        "review": "I usually find Apple quite good but a £2k+ 27 Furthermore, they've discontinued this product so I can't even buy a like-for-like replacement.Very disappointing.",
+        "ratings": "5/5"
+    },
+    {
+        "id": 6,
+        "name": "Noman",
+        "review": "I usually find Apple quite good but a £2k+ 27 Furthermore, they've discontinued this product so I can't even buy a like-for-like replacement.Very disappointing.",
+        "ratings": "3.5/5"
+    }
+]
