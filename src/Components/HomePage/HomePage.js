@@ -33,7 +33,7 @@ const HomePage = () => {
                 <h1>Customer Reviews</h1>
             </div>
 
-            <div className=' py-5 flex justify-center '>
+            <div className=' py-5 flex justify-center mx-8'>
                 <div className='grid md:grid-cols-3 gap-5 w-fit'>
                     {
                         threeReview.map(review => <Review

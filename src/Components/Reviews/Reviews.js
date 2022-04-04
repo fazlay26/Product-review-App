@@ -7,7 +7,7 @@ const Reviews = () => {
     return (
         <div>
             <h1 className='text-6xl text-center'>All Customer Reviews</h1>
-            <div className=' py-5 flex justify-center'>
+            <div className=' py-5 flex justify-center mx-8'>
                 <div className='grid grid-cols-3 gap-5 w-fit'>
                     {
                         reviews.map(review => <InsideReviews
