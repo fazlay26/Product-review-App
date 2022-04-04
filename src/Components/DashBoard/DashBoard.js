@@ -54,10 +54,12 @@ const DashBoard = () => {
                         <Tooltip />
                     </BarChart>
                 </div>
-                <div className='flex items-end'>
+                <div className=''>
+                    <h1 className='text-xl text-center text-violet-600 font-bold'>Investment vs Revenue</h1>
+
                     <LineChart
                         width={500}
-                        height={300}
+                        height={450}
                         data={data}
                         margin={{
                             top: 5,
