@@ -8,8 +8,14 @@ import Header from './Components/Header/Header';
 import HomePage from './Components/HomePage/HomePage';
 import NotFound from './Components/NotFound/NotFound';
 import Reviews from './Components/Reviews/Reviews';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div >
       <Header></Header>

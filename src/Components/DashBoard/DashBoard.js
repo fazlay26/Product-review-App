@@ -1,5 +1,4 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 const data = [
     {
@@ -44,11 +43,12 @@ const data = [
 const DashBoard = () => {
     return (
 
-        <div className='flex  justify-center pl-6 pr-6  '>
-            <div className='md:grid grid-cols-2 gap-4'>
+        <div className='flex  justify-center pl-6 pr-6  pt-5'>
+            <div className='md:grid grid-cols-2 gap-y-12'>
                 <div className=''>
+                    <h1 className='text-center text-xl text-violet-600 font-bold'>Monthwise Sell</h1>
                     <BarChart width={400} height={400} data={data}>
-                        <Bar dataKey="investment" fill="#9900F0" />
+                        <Bar dataKey="sell" fill="#9900F0" />
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
@@ -77,7 +77,7 @@ const DashBoard = () => {
 
                 </div>
                 <div className=''>
-                    <h1 className='text-xl text-center'>Investment vs Revenue</h1>
+                    <h1 className='text-xl text-center text-violet-600 font-bold'>Investment vs Revenue</h1>
                     <AreaChart
                         width={500}
                         height={400}
@@ -97,7 +97,7 @@ const DashBoard = () => {
                     </AreaChart>
                 </div>
                 <div className=' h-[70vh] '>
-                    <h1 className='text-xl text-center'>Investment vs Revenue</h1>
+                    <h1 className='text-xl text-center text-violet-600 font-bold'>Investment vs Revenue</h1>
                     <PieChart width={400} height={400}>
                         <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                         <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />

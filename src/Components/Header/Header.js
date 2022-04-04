@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
 
+
 const Header = () => {
     return (
         <div className='sticky top-0 bg-white px-12 py-8 flex justify-center md:justify-between'>

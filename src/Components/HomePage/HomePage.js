@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+
 import { Link } from 'react-router-dom';
 import useReview from '../../Hooks/useReview';
 import Review from '../Review/Review';
+import './HomePage.css'
 
 const HomePage = () => {
     const [reviews, setReviews] = useReview()
@@ -16,8 +17,8 @@ const HomePage = () => {
             <div className='flex flex-col-reverse md:flex-row  justify-end space-x-4 mt-10'>
                 <div className='flex items-center w-full pl-20 justify-center '>
                     <div className=''>
-                        <h1 className='text-7xl mb-2'>Apple Macbook Air</h1>
-                        <h1 className='text-7xl '>Best Laptop in Market</h1>
+                        <h1 id='title-animation' className='text-5xl mb-2'>Apple <span className='text-orange-700'>Macbook Air</span></h1>
+                        <h1 className='text-7xl text-slate-800'>Best Laptop in Market</h1>
                         <p className='text-gray-500 pt-4'>Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.</p>
                         <button className='py-2 px-3 text-white mt-3 rounded-full bg-orange-500'>Live Demo</button>
                     </div>
@@ -30,7 +31,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div className='text-7xl text-center'>
-                <h1>Customer Reviews</h1>
+                <h1>Customer Reviews({threeReview.length})</h1>
             </div>
 
             <div className=' py-5 flex justify-center mx-8'>
