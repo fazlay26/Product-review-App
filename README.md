@@ -1,6 +1,10 @@
 # Tech Review Site
 
 This is my project live site [Click Here](https://product-review-site.netlify.app/).
+* Try to review macbook air laptop
+* I have used react router in this project
+* Also use graph and i have used taildwind framework
+* I added animation to make this project to look a  little more beautiful
 
 ## Available Scripts
 
