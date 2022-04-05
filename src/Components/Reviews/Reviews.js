@@ -9,7 +9,7 @@ const Reviews = () => {
         <div>
             <h1 className='text-6xl text-center'>All Customer Reviews</h1>
             <div className=' py-5 flex justify-center mx-8'>
-                <div className='md:grid grid-cols-3 gap-5 w-fit'>
+                <div className=' z-0 md:grid grid-cols-3 gap-5 w-fit'>
                     {
                         reviews.map(review => <InsideReviews
                             InsideReviews
